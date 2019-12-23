@@ -6,4 +6,7 @@ fun main(args: Array<String>) {
     experiencePoints +=5
     println(experiencePoints)
     println(playerName)
+    var hasSteed = "Dont have one yet"
+    println("El jugador ${playerName}")
+    println("El jugador regflejado ${playerName.reversed()}")
 }
